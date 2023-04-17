@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Assignment Module 11</title>
+  </head>
+  <body>
+    <script>
+      function multiplicationTable(num) {
+        var i;
+        document.write("Multiplication table for = " + num);
+        document.write("<br>");
+        document.write("<br>");
+        for (i = 1; i <= 10; i++) {
+          var result = i * num;
+          document.write(num + " x " + i + " = " + result);
+          document.write("<br>");
+        }
+      }
+
+      multiplicationTable(7);
+      document.write("<br>");
+      multiplicationTable(10);
+    </script>
+  </body>
+</html>
